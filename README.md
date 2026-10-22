@@ -1,0 +1,2 @@
+# ESP_Ender_Control
+An ESP32-S3-based USB print host for the Creality Ender-3 S1 Pro. It streams G-code files from microSD using reliable Marlin communication with line numbers, checksums, acknowledgements, and resend handling. A local Wi-Fi dashboard provides file upload and selection, print control, progress monitoring, nozzle and bed temperatures, BME280 environmental sensing, communication diagnostics, and a live camera stream.
