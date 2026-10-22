@@ -1,0 +1,84 @@
+# ==========================================
+# Private credentials and configuration
+# ==========================================
+
+secrets.h
+arduino_secrets.h
+credentials.h
+.env
+.env.*
+
+# If config.h contains passwords or API keys,
+# uncomment the following line:
+# config.h
+
+
+# ==========================================
+# Arduino and ESP32 build output
+# ==========================================
+
+build/
+_build/
+out/
+tmp/
+*.bin
+*.elf
+*.hex
+*.map
+*.eep
+*.o
+*.a
+*.d
+*.su
+*.tmp
+*.log
+
+
+# ==========================================
+# Arduino IDE files
+# ==========================================
+
+*.ino.standard.hex
+*.ino.with_bootloader.hex
+*.ino.bootloader.bin
+*.ino.partitions.bin
+*.ino.merged.bin
+
+
+# ==========================================
+# Visual Studio Code and PlatformIO
+# ==========================================
+
+.vscode/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+
+# ==========================================
+# Other IDE settings
+# ==========================================
+
+.idea/
+.vs/
+Debug/
+Release/
+
+
+# ==========================================
+# Operating system files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==========================================
+# Editor backup files
+# ==========================================
+
+*~
+*.bak
+*.swp
+*.swo
